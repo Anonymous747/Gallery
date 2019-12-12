@@ -407,3 +407,10 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-mdpi\icon.png
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-xhdpi\icon.png
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-xxhdpi\icon.png
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\germany.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\header.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\italy.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\japan.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\newyouk.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\splashscreen.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\startmenuscreen.jpg

@@ -3,7 +3,8 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/startmenuscreen">
     <include
         layout="@layout/toolbar_actionbar"/>
     <LinearLayout
@@ -22,7 +23,7 @@
 		  android:layout_marginRight="100dp"
 		  android:textSize="15sp"
 		  android:textAllCaps="true"
- 		  android:background="@color/colorAccent"
+          android:background="@color/colorAccent"
           local:MvxBind="Click ShowCollectionCommand"/>
     <Button
 		  android:id="@+id/btn_setting"

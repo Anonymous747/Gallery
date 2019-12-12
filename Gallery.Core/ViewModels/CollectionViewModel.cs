@@ -21,11 +21,15 @@ namespace Gallery.Core.ViewModels
         public override Task Initialize()
         {
             _cities = new List<City>();
-            _cities.Add(new City("Image", "Some image", "louvre.jpg"));
-            _cities.Add(new City("Image", "Some image", "louvre.jpg"));
-            _cities.Add(new City("Image", "Some image", "louvre.jpg"));
-            _cities.Add(new City("Image", "Some image", "louvre.jpg"));
-            _cities.Add(new City("Image", "Some image", "louvre.jpg"));
+            _cities.Add(new City("Germany", "Some information about it", "Germany.jpg"));
+            _cities.Add(new City("Japan", "Some information about it", "Japan.jpg")); 
+            _cities.Add(new City("New York", "Some information about it", "NewYouk.jpg"));
+            _cities.Add(new City("Germany", "Some information about it", "Germany.jpg"));
+            _cities.Add(new City("Japan", "Some information about it", "Japan.jpg"));
+            _cities.Add(new City("New York", "Some information about it", "NewYouk.jpg"));
+            _cities.Add(new City("Germany", "Some information about it", "Germany.jpg"));
+            _cities.Add(new City("Japan", "Some information about it", "Japan.jpg"));
+            _cities.Add(new City("New York", "Some information about it", "NewYouk.jpg"));
 
             return base.Initialize();
         }
