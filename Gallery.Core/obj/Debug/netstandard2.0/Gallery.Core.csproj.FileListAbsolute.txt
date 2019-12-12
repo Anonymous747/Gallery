@@ -1,0 +1,7 @@
+D:\myscript\Gallery\Gallery.Core\bin\Debug\netstandard2.0\Gallery.Core.deps.json
+D:\myscript\Gallery\Gallery.Core\bin\Debug\netstandard2.0\Gallery.Core.dll
+D:\myscript\Gallery\Gallery.Core\bin\Debug\netstandard2.0\Gallery.Core.pdb
+D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.AssemblyInfoInputs.cache
+D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.AssemblyInfo.cs
+D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.dll
+D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.pdb
