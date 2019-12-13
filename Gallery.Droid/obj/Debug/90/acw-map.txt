@@ -13,12 +13,6 @@ gallery.droid.views.BaseFragment_1;md52938ccd8f1955ba0798c010c3e3fa5a4.BaseFragm
 Gallery.Droid.Views.CollectionView, Gallery.Droid;CollectionView
 Gallery.Droid.Views.CollectionView;CollectionView
 CollectionView;CollectionView
-Gallery.Droid.Views.RecyclerAdapter, Gallery.Droid;md52938ccd8f1955ba0798c010c3e3fa5a4.RecyclerAdapter
-Gallery.Droid.Views.RecyclerAdapter;md52938ccd8f1955ba0798c010c3e3fa5a4.RecyclerAdapter
-gallery.droid.views.RecyclerAdapter;md52938ccd8f1955ba0798c010c3e3fa5a4.RecyclerAdapter
-Gallery.Droid.Views.RecyclerAdapter+MyView, Gallery.Droid;md52938ccd8f1955ba0798c010c3e3fa5a4.RecyclerAdapter_MyView
-Gallery.Droid.Views.RecyclerAdapter.MyView;md52938ccd8f1955ba0798c010c3e3fa5a4.RecyclerAdapter_MyView
-gallery.droid.views.RecyclerAdapter_MyView;md52938ccd8f1955ba0798c010c3e3fa5a4.RecyclerAdapter_MyView
 Gallery.Droid.Views.ImagePageView, Gallery.Droid;ImagePageView
 Gallery.Droid.Views.ImagePageView;ImagePageView
 ImagePageView;ImagePageView
@@ -31,6 +25,12 @@ MenuFragment;MenuFragment
 Gallery.Droid.Views.StartView, Gallery.Droid;StartView
 Gallery.Droid.Views.StartView;StartView
 StartView;StartView
+Gallery.Droid.Views.Recycler_Adapter.RecyclerAdapter, Gallery.Droid;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
+Gallery.Droid.Views.Recycler_Adapter.RecyclerAdapter;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
+gallery.droid.views.recycler_adapter.RecyclerAdapter;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
+Gallery.Droid.Views.Adapter.MyView, Gallery.Droid;md569adb679302003a85d06e2ef62e3c16d.MyView
+Gallery.Droid.Views.Adapter.MyView;md569adb679302003a85d06e2ef62e3c16d.MyView
+gallery.droid.views.adapter.MyView;md569adb679302003a85d06e2ef62e3c16d.MyView
 MvvmCross.Platforms.Android.MvxJavaContainer, MvvmCross;md5c7db9e1a34dc5fdbb2369d1b3c66c056.MvxJavaContainer
 MvvmCross.Platforms.Android.MvxJavaContainer;md5c7db9e1a34dc5fdbb2369d1b3c66c056.MvxJavaContainer
 mvvmcross.platforms.android.MvxJavaContainer;md5c7db9e1a34dc5fdbb2369d1b3c66c056.MvxJavaContainer

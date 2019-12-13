@@ -71,6 +71,8 @@
     <Compile Include="Views\ImagePageView.cs" />
     <Compile Include="Views\MainView.cs" />
     <Compile Include="Views\MenuView.cs" />
+    <Compile Include="Views\Adapter\MyView.cs" />
+    <Compile Include="Views\Adapter\RecyclerAdapter.cs" />
     <Compile Include="Views\StartView.cs" />
   </ItemGroup>
   <ItemGroup>

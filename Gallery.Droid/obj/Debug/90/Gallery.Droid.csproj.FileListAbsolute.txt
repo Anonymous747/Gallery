@@ -369,8 +369,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5716162e2cd7f7ce013
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\BaseFragment.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\BaseFragment_1.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\MainActivity.java
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\RecyclerAdapter.java
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\RecyclerAdapter_MyView.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5231beb04e46a1dc811e36737109a7a02\MvxActivity_1.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5231beb04e46a1dc811e36737109a7a02\MvxAndroidApplication.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5231beb04e46a1dc811e36737109a7a02\MvxAndroidApplication_2.java
@@ -414,3 +412,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\japan.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\newyouk.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\splashscreen.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\startmenuscreen.jpg
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.Export.pdb
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5ac47df2d42dd30e71f99246273179ca0\RecyclerAdapter.java
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d06e2ef62e3c16d\MyView.java

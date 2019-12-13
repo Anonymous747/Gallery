@@ -34,6 +34,7 @@ namespace Gallery.Droid.Views
             txt_data.Text = ViewModel.City.Data;
 
             this.AddBindings(_toolbar, "Title City.Name");
+            _toolbar.SetTitleTextColor(Resource.Color.white); 
 
             return view;
         }
