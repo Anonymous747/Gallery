@@ -29,24 +29,17 @@ namespace Gallery.Droid.Views
 
             var iconStartMenu = _navigationView.Menu.FindItem(Resource.Id.nav_menu);
             iconStartMenu.SetTitle("Start Menu");
-            iconStartMenu.SetCheckable(false);
-            iconStartMenu.SetChecked(true);
-
 
             var iconCities = _navigationView.Menu.FindItem(Resource.Id.nav_cities);
             iconCities.SetTitle("Cities");
-            iconCities.SetCheckable(false);
-            iconCities.SetChecked(true);
 
             _previousMenuItem = iconCities;
 
             var iconSetting = _navigationView.Menu.FindItem(Resource.Id.nav_setting);
             iconSetting.SetTitle("Setting");
-            iconSetting.SetCheckable(false);
 
             var iconHelp = _navigationView.Menu.FindItem(Resource.Id.nav_help);
             iconHelp.SetTitle("Help");
-            iconHelp.SetCheckable(false);
 
             return view;
         }

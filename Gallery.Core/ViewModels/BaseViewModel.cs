@@ -7,14 +7,5 @@ namespace Gallery.Core.ViewModels
         protected BaseViewModel()
         {
         }
-
-    }
-
-    public abstract class BaseViewModel<TParameter> : MvxViewModel<TParameter>
-        where TParameter : class
-    {
-        protected BaseViewModel()
-        {
-        }
     }
 }

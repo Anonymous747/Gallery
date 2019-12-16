@@ -13,7 +13,7 @@ namespace Gallery.Core.ViewModels
         {
             _navigationService = navigationService;
 
-            ShowStartCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<StartViewModel>());
+            ShowStartCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<MainPageViewModel>());
             ShowCollectionCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<CollectionViewModel>());
         }
 

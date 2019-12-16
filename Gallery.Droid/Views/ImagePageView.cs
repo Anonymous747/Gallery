@@ -13,6 +13,10 @@ namespace Gallery.Droid.Views
     [Register(nameof(ImagePageView))]
     class ImagePageView : BaseFragment<ImagePageViewModel>
     {
+        public string ImageName { get; set; }
+        public string Name { get; set; }
+        public string Data { get; set; }
+
         private Android.Support.V7.Widget.Toolbar _toolbar;
         protected override int FragmentId => Resource.Layout.image_page_view;
 
@@ -25,18 +29,36 @@ namespace Gallery.Droid.Views
             var txt_name = view.FindViewById<TextView>(Resource.Id.txt_name_page);
             var txt_data = view.FindViewById<TextView>(Resource.Id.txt_data_page);
 
-            string imagefileN = ViewModel.City.Path;
-            imagefileN = imagefileN.Replace(".jpg", "").Replace(".png", "");
-            int id = (int)typeof(Resource.Drawable).GetField(imagefileN).GetValue(null);
+            InitBinding();
+            ImageName = ImageName.Replace(".jpg", "").Replace(".png", "");
+            int id = (int)typeof(Resource.Drawable).GetField(ImageName).GetValue(null);
             var myImage = BitmapFactory.DecodeResource(Resources, id);
             image.SetImageBitmap(myImage);
-            txt_name.Text = ViewModel.City.Name;
-            txt_data.Text = ViewModel.City.Data;
+            txt_name.Text = Name;
+            txt_data.Text = Data;
 
             this.AddBindings(_toolbar, "Title City.Name");
             _toolbar.SetTitleTextColor(Resource.Color.white); 
 
             return view;
+        }
+        private void InitBinding()
+        {
+            var set = this.CreateBindingSet<ImagePageView, ImagePageViewModel>();
+            set.Bind()
+                .For(F => F.ImageName)
+                .To(T => T.City.Path);
+            set.Apply();
+
+            set.Bind()
+                .For(F => F.Name)
+                .To(T => T.City.Name);
+            set.Apply();
+
+            set.Bind()
+                .For(F => F.Data)
+                .To(T => T.City.Data);
+            set.Apply();
         }
     }
 }

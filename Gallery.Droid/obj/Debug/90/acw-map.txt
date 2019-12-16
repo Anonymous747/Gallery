@@ -22,9 +22,9 @@ gallery.droid.views.MainActivity;md52938ccd8f1955ba0798c010c3e3fa5a4.MainActivit
 Gallery.Droid.Views.MenuFragment, Gallery.Droid;MenuFragment
 Gallery.Droid.Views.MenuFragment;MenuFragment
 MenuFragment;MenuFragment
-Gallery.Droid.Views.StartView, Gallery.Droid;StartView
-Gallery.Droid.Views.StartView;StartView
-StartView;StartView
+Gallery.Droid.Views.MainPageView, Gallery.Droid;MainPageView
+Gallery.Droid.Views.MainPageView;MainPageView
+MainPageView;MainPageView
 Gallery.Droid.Views.Recycler_Adapter.RecyclerAdapter, Gallery.Droid;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
 Gallery.Droid.Views.Recycler_Adapter.RecyclerAdapter;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
 gallery.droid.views.recycler_adapter.RecyclerAdapter;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter

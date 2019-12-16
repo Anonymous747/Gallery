@@ -11,23 +11,28 @@ namespace Gallery.Droid.Views.Recycler_Adapter
     public class RecyclerAdapter : RecyclerView.Adapter
     {
         public event EventHandler<int> ItemClick;
-        public List<City> mCities;
-        public RecyclerAdapter(List<City> cities)
+        public List<City> _mCities
         {
-            mCities = cities;
+            get;
+            set;
+        }
+
+        public RecyclerAdapter()
+        {
+            _mCities = new List<City>();
         }
         
-
         public override int ItemCount
         {
-            get { return mCities.Count; }
+            get { return _mCities.Count; }
         }
+
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             MyView myHolder = holder as MyView;
-            myHolder.mName.Text = mCities[position].Name;
-            myHolder.mData.Text = mCities[position].Data;
-            string imagefileName = mCities[position].Path;
+            myHolder.mName.Text = _mCities[position].Name;
+            myHolder.mData.Text = _mCities[position].Data;
+            string imagefileName = _mCities[position].Path;
             imagefileName = imagefileName.Replace(".jpg", "").Replace(".png", "");
             int id = (int)typeof(Resource.Drawable).GetField(imagefileName).GetValue(null);
             myHolder.mImage.SetImageResource(id);
@@ -39,10 +44,10 @@ namespace Gallery.Droid.Views.Recycler_Adapter
             View row = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.item_name, parent, false);
 
             TextView txtName = row.FindViewById<TextView>(Resource.Id.txt_name);
-            ImageView imgPath = row.FindViewById<ImageView>(Resource.Id.img_path);
+            ImageView img = row.FindViewById<ImageView>(Resource.Id.img_path);
             TextView txtData = row.FindViewById<TextView>(Resource.Id.txt_data);
 
-            MyView view = new MyView(row, OnClick) { mName = txtName, mData = txtData, mImage = imgPath };
+            MyView view = new MyView(row, OnClick) { mName = txtName, mData = txtData, mImage = img };
             return view;
         }
         void OnClick(int position)

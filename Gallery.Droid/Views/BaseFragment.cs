@@ -4,7 +4,6 @@ using Android.Support.V7.Widget;
 using Android.Views;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
-using MvvmCross.ViewModels;
 
 namespace Gallery.Droid.Views
 {
@@ -23,8 +22,6 @@ namespace Gallery.Droid.Views
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
         }
 
         protected abstract int FragmentId { get; }
@@ -65,14 +62,6 @@ namespace Gallery.Droid.Views
             base.OnActivityCreated(savedInstanceState);
             if (_toolbar != null)
                 _drawerToggle.SyncState();
-        }
-    }
-    public abstract class BaseFragment<TViewModel> : BaseFragment where TViewModel : class, IMvxViewModel
-    {
-        public new TViewModel ViewModel
-        {
-            get { return (TViewModel)base.ViewModel; }
-            set { base.ViewModel = value; }
         }
     }
 }

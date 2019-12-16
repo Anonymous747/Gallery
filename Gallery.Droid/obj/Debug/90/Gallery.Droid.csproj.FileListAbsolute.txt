@@ -99,7 +99,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Gallery.Droid.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Gallery.Droid.pdb
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Java.Interop.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.dll
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.pdb
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Security.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\mscorlib.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
@@ -264,7 +263,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\main_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\menu_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\navigation_header.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\splash_screen.xml
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\start_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\toolbar_actionbar.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\louvre.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\linksrc\Gallery.Core.dll
@@ -399,7 +397,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5c7db9e1a34dc5fdbb2
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\CollectionView.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\ImagePageView.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\MenuFragment.java
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\StartView.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-hdpi\icon.png
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-mdpi\icon.png
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\mipmap-xhdpi\icon.png
@@ -412,6 +409,8 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\japan.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\newyouk.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\splashscreen.jpg
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\drawable\startmenuscreen.jpg
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.Export.pdb
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5ac47df2d42dd30e71f99246273179ca0\RecyclerAdapter.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d06e2ef62e3c16d\MyView.java
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\main_page_view.xml
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\MainPageView.java
