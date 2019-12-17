@@ -1,4 +1,5 @@
-﻿using Android.OS;
+﻿using System;
+using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
@@ -10,7 +11,7 @@ using MvvmCross.Platforms.Android.Presenters.Attributes;
 
 namespace Gallery.Droid.Views
 {
-    [MvxFragmentPresentation(typeof(MainViewModel), Resource.Id.content_frame, true)]
+    [MvxFragmentPresentation(typeof(RootViewModel), Resource.Id.content_frame, true)]
     [Register(nameof(CollectionView))]
     public class CollectionView : BaseFragment<CollectionViewModel>
     {
@@ -46,6 +47,5 @@ namespace Gallery.Droid.Views
                 .To(A => A.Cities);
             set.Apply();
         }
-    }
-    
+    }    
 }

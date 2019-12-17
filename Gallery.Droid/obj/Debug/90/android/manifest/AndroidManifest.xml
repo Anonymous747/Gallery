@@ -10,7 +10,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Gallery" android:launchMode="singleTop" android:theme="@style/AppTheme" android:name="md52938ccd8f1955ba0798c010c3e3fa5a4.MainActivity" />
+    <activity android:label="Gallery" android:launchMode="singleTop" android:theme="@style/AppTheme" android:name="md52938ccd8f1955ba0798c010c3e3fa5a4.RootActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.gallery.droid.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

@@ -259,7 +259,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\menu\navigation_drawer.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\collection_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\image_page_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\item_name.xml
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\main_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\menu_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\navigation_header.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\splash_screen.xml
@@ -414,3 +413,9 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\main_page_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\MainPageView.java
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\root_view.xml
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.Export.pdb
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.pdb
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\setting_view.xml
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\RootActivity.java
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\SettingView.java

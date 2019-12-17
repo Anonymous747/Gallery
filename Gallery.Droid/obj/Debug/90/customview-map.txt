@@ -1,11 +1,10 @@
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 android.support.design.widget.AppBarLayout;obj\Debug\90\res\layout\toolbar_actionbar.xml
-android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\collection_view.xml
-android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\main_page_view.xml
-android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\main_view.xml
+android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\collection_frame.xml
+android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\root_view.xml
 android.support.design.widget.NavigationView;obj\Debug\90\res\layout\menu_view.xml
-android.support.v4.widget.DrawerLayout;obj\Debug\90\res\layout\main_view.xml
+android.support.v4.widget.DrawerLayout;obj\Debug\90\res\layout\root_view.xml
 android.support.v7.widget.RecyclerView;obj\Debug\90\res\layout\collection_view.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\collection_view.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\image_page_view.xml
@@ -19,10 +18,8 @@ color;obj\Debug\90\res\values\ic_launcher_background.xml
 declare-styleable;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
-FrameLayout;obj\Debug\90\res\layout\collection_view.xml
-FrameLayout;obj\Debug\90\res\layout\image_page_view.xml
-FrameLayout;obj\Debug\90\res\layout\main_page_view.xml
-FrameLayout;obj\Debug\90\res\layout\main_view.xml
+FrameLayout;obj\Debug\90\res\layout\collection_frame.xml
+FrameLayout;obj\Debug\90\res\layout\root_view.xml
 group;obj\Debug\90\res\menu\navigation_drawer.xml
 ImageView;obj\Debug\90\res\layout\image_page_view.xml
 ImageView;obj\Debug\90\res\layout\item_name.xml
@@ -37,6 +34,7 @@ LinearLayout;obj\Debug\90\res\layout\image_page_view.xml
 LinearLayout;obj\Debug\90\res\layout\item_name.xml
 LinearLayout;obj\Debug\90\res\layout\main_page_view.xml
 LinearLayout;obj\Debug\90\res\layout\navigation_header.xml
+LinearLayout;obj\Debug\90\res\layout\setting_view.xml
 LinearLayout;obj\Debug\90\res\layout\splash_screen.xml
 menu;obj\Debug\90\res\menu\navigation_drawer.xml
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml

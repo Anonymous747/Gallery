@@ -9,7 +9,7 @@ namespace Gallery.Core
         {
 
             // register the appstart object
-            RegisterAppStart<MainViewModel>();
+            RegisterAppStart<RootViewModel>();
         }
     }
 }

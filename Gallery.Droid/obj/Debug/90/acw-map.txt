@@ -16,15 +16,18 @@ CollectionView;CollectionView
 Gallery.Droid.Views.ImagePageView, Gallery.Droid;ImagePageView
 Gallery.Droid.Views.ImagePageView;ImagePageView
 ImagePageView;ImagePageView
-Gallery.Droid.Views.MainActivity, Gallery.Droid;md52938ccd8f1955ba0798c010c3e3fa5a4.MainActivity
-Gallery.Droid.Views.MainActivity;md52938ccd8f1955ba0798c010c3e3fa5a4.MainActivity
-gallery.droid.views.MainActivity;md52938ccd8f1955ba0798c010c3e3fa5a4.MainActivity
+Gallery.Droid.Views.RootActivity, Gallery.Droid;md52938ccd8f1955ba0798c010c3e3fa5a4.RootActivity
+Gallery.Droid.Views.RootActivity;md52938ccd8f1955ba0798c010c3e3fa5a4.RootActivity
+gallery.droid.views.RootActivity;md52938ccd8f1955ba0798c010c3e3fa5a4.RootActivity
 Gallery.Droid.Views.MenuFragment, Gallery.Droid;MenuFragment
 Gallery.Droid.Views.MenuFragment;MenuFragment
 MenuFragment;MenuFragment
 Gallery.Droid.Views.MainPageView, Gallery.Droid;MainPageView
 Gallery.Droid.Views.MainPageView;MainPageView
 MainPageView;MainPageView
+Gallery.Droid.Views.SettingView, Gallery.Droid;SettingView
+Gallery.Droid.Views.SettingView;SettingView
+SettingView;SettingView
 Gallery.Droid.Views.Recycler_Adapter.RecyclerAdapter, Gallery.Droid;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
 Gallery.Droid.Views.Recycler_Adapter.RecyclerAdapter;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter
 gallery.droid.views.recycler_adapter.RecyclerAdapter;md5ac47df2d42dd30e71f99246273179ca0.RecyclerAdapter

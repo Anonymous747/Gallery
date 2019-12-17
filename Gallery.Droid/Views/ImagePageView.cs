@@ -9,7 +9,7 @@ using MvvmCross.Platforms.Android.Presenters.Attributes;
 
 namespace Gallery.Droid.Views
 {
-    [MvxFragmentPresentation(typeof(MainViewModel), Resource.Id.content_frame, true)]
+    [MvxFragmentPresentation(typeof(RootViewModel), Resource.Id.content_frame, true)]
     [Register(nameof(ImagePageView))]
     class ImagePageView : BaseFragment<ImagePageViewModel>
     {

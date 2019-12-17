@@ -40,13 +40,14 @@ namespace Gallery.Droid.Views
 
                 _drawerToggle = new MvxActionBarDrawerToggle(
                     Activity,                               // host Activity
-                    ((MainActivity)ParentActivity).DrawerLayout,  // DrawerLayout object
+                    ((RootActivity)ParentActivity).DrawerLayout,  // DrawerLayout object
                     _toolbar,                              // nav drawer icon to replace 'Up' caret
                     Resource.String.drawer_open,            // "open drawer" description
                     Resource.String.drawer_close            // "close drawer" description
                 );
-                _drawerToggle.DrawerOpened += (object sender, ActionBarDrawerEventArgs e) => ((MainActivity)Activity)?.HideSoftKeyboard();
-                ((MainActivity)ParentActivity).DrawerLayout.AddDrawerListener(_drawerToggle);
+                _drawerToggle.DrawerOpened += (object sender, ActionBarDrawerEventArgs e) => ((RootActivity)Activity)?.HideSoftKeyboard();
+                ((RootActivity)ParentActivity).DrawerLayout.AddDrawerListener(_drawerToggle);
+
             }
 
             return view;
