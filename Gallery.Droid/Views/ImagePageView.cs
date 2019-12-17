@@ -46,18 +46,18 @@ namespace Gallery.Droid.Views
         {
             var set = this.CreateBindingSet<ImagePageView, ImagePageViewModel>();
             set.Bind()
-                .For(F => F.ImageName)
-                .To(T => T.City.Path);
+                .For(i => i.ImageName)
+                .To(vm => vm.City.Path);
             set.Apply();
 
             set.Bind()
-                .For(F => F.Name)
-                .To(T => T.City.Name);
+                .For(i => i.Name)
+                .To(vm => vm.City.Name);
             set.Apply();
 
             set.Bind()
-                .For(F => F.Data)
-                .To(T => T.City.Data);
+                .For(i => i.Data)
+                .To(vm => vm.City.Data);
             set.Apply();
         }
     }

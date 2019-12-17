@@ -13,6 +13,9 @@ gallery.droid.views.BaseFragment_1;md52938ccd8f1955ba0798c010c3e3fa5a4.BaseFragm
 Gallery.Droid.Views.CollectionView, Gallery.Droid;CollectionView
 Gallery.Droid.Views.CollectionView;CollectionView
 CollectionView;CollectionView
+Gallery.Droid.Views.HelpView, Gallery.Droid;HelpView
+Gallery.Droid.Views.HelpView;HelpView
+HelpView;HelpView
 Gallery.Droid.Views.ImagePageView, Gallery.Droid;ImagePageView
 Gallery.Droid.Views.ImagePageView;ImagePageView
 ImagePageView;ImagePageView

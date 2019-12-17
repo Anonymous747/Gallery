@@ -365,7 +365,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5716162e2cd7f7ce013
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5716162e2cd7f7ce01364d7c5d961f40b\MvxSplashScreenAppCompatActivity_2.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\BaseFragment.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\BaseFragment_1.java
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\MainActivity.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5231beb04e46a1dc811e36737109a7a02\MvxActivity_1.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5231beb04e46a1dc811e36737109a7a02\MvxAndroidApplication.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md5231beb04e46a1dc811e36737109a7a02\MvxAndroidApplication_2.java
@@ -419,3 +418,5 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mono.Android.pdb
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\setting_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba0798c010c3e3fa5a4\RootActivity.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\SettingView.java
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\help_view.xml
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\HelpView.java

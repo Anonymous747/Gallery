@@ -50,7 +50,7 @@ namespace Gallery.Droid.Views.Recycler_Adapter
             MyView view = new MyView(row, OnClick) { mName = txtName, mData = txtData, mImage = img };
             return view;
         }
-        void OnClick(int position)
+        private void OnClick(int position)
         {
             if (ItemClick != null)
                 ItemClick(this, position);

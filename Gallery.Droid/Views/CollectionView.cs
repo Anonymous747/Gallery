@@ -43,8 +43,8 @@ namespace Gallery.Droid.Views
         {
             var set = this.CreateBindingSet<CollectionView, CollectionViewModel>();
             set.Bind(_mAdapter)
-                .For(I => I._mCities)
-                .To(A => A.Cities);
+                .For(i => i._mCities)
+                .To(vm => vm.Cities);
             set.Apply();
         }
     }    

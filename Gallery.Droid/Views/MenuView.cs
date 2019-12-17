@@ -43,15 +43,19 @@ namespace Gallery.Droid.Views
 
         public bool OnNavigationItemSelected(IMenuItem item)
         {
-            //Task.Run(() => Navigate(item.ItemId));
-
             switch (item.ItemId)
             {
                 case Resource.Id.nav_menu:
-                    ViewModel.ShowStartCommand.Execute(null);
+                    ViewModel.ShowMainPageCommand.Execute(null);
                     break;
                 case Resource.Id.nav_cities:
                     ViewModel.ShowCollectionCommand.Execute(null);
+                    break;
+                case Resource.Id.nav_setting:
+                    ViewModel.ShowSettingCommand.Execute(null);
+                    break;
+                case Resource.Id.nav_help:
+                    ViewModel.ShowHelpCommand.Execute(null);
                     break;
             }
 

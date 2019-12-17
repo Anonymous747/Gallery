@@ -1622,7 +1622,8 @@
       "Gallery.Core >= 1.0.0",
       "MvvmCross >= 6.4.1",
       "MvvmCross.Droid.Support.V7.AppCompat >= 6.4.1",
-      "Xamarin.Android.Support.Design >= 28.0.0.3"
+      "Xamarin.Android.Support.Design >= 28.0.0.3",
+      "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3"
     ]
   },
   "packageFolders": {
@@ -1676,6 +1677,10 @@
             "version": "[6.4.1, )"
           },
           "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[28.0.0.3, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
             "target": "Package",
             "version": "[28.0.0.3, )"
           }
