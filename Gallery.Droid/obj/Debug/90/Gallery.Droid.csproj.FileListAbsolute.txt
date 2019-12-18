@@ -420,3 +420,4 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md52938ccd8f1955ba079
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\SettingView.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\layout\help_view.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\HelpView.java
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d06e2ef62e3c16d\MyViewHolder.java

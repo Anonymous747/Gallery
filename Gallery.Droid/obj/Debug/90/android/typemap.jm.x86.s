@@ -1,4 +1,4 @@
-	/* Data SHA1: 64bb543d341e47c26433cdffba12058bb2e7684c */
+	/* Data SHA1: 60d1c5433dccb8a22413199cfe24f3bbe221baa4 */
 	.file	"typemap.jm.inc"
 
 	/* Mapping header */

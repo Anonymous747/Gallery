@@ -53,5 +53,9 @@ namespace Gallery.Core.ViewModels
             var result = await _navigationService.Navigate<ImagePageViewModel, City>(selectedPerson);
         }
 
+        public async void OnItemClick(object sender, int position)
+        {
+            await ImageSelected(Cities[position]);
+        }
     }
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Android.Widget;
 using Gallery.Core.Models;
 using Gallery.Droid.Views.Adapter;
 
@@ -20,7 +19,7 @@ namespace Gallery.Droid.Views.Recycler_Adapter
         public RecyclerAdapter()
         {
             _mCities = new List<City>();
-        }
+        }   
         
         public override int ItemCount
         {
@@ -29,7 +28,7 @@ namespace Gallery.Droid.Views.Recycler_Adapter
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            MyView myHolder = holder as MyView;
+            MyViewHolder myHolder = holder as MyViewHolder;
             myHolder.mName.Text = _mCities[position].Name;
             myHolder.mData.Text = _mCities[position].Data;
             string imagefileName = _mCities[position].Path;
@@ -42,12 +41,8 @@ namespace Gallery.Droid.Views.Recycler_Adapter
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             View row = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.item_name, parent, false);
-
-            TextView txtName = row.FindViewById<TextView>(Resource.Id.txt_name);
-            ImageView img = row.FindViewById<ImageView>(Resource.Id.img_path);
-            TextView txtData = row.FindViewById<TextView>(Resource.Id.txt_data);
-
-            MyView view = new MyView(row, OnClick) { mName = txtName, mData = txtData, mImage = img };
+            MyViewHolder view = new MyViewHolder(row);
+           
             return view;
         }
         private void OnClick(int position)

@@ -24,7 +24,7 @@ namespace Gallery.Droid.Views
         {
             var view = base.OnCreateView(inflater, container, savedInstanceState);
             _mAdapter = new RecyclerAdapter();
-            _mAdapter.ItemClick += OnItemClick;
+            //_mAdapter.ItemClick += OnItemClick;
             InitBinding();
 
             _mRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.recyclerView);
@@ -35,17 +35,21 @@ namespace Gallery.Droid.Views
         
             return view;
         }
-        async void OnItemClick(object sender, int position)
+        /*async void OnItemClick(object sender, int position)
         {
             await ViewModel.ImageSelected(ViewModel.Cities[position]);
-        }
+        }*/
         private void InitBinding()
         {
             var set = this.CreateBindingSet<CollectionView, CollectionViewModel>();
             set.Bind(_mAdapter)
-                .For(i => i._mCities)
+                .For(v => v._mCities)
                 .To(vm => vm.Cities);
             set.Apply();
+
+            set.Bind(_mAdapter)
+                .For(v => v.ItemClick)
+                .To(vm => vm.OnItemClick())
         }
     }    
 }
