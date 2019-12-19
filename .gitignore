@@ -27,11 +27,3 @@ Gallery/Gallery.Droid/obj/
 
 Gallery/bin/
 Gallery/obj/
-
-Gallery/bin/*
-Gallery/obj/*
-
-Gallery/Gallery.Core/bin/*
-Gallery/Gallery.Core/obj/*
-Gallery/Gallery.Droid/bin/*
-Gallery/Gallery.Droid/obj/*
