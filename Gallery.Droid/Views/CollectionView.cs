@@ -1,7 +1,5 @@
-﻿using System;
-using Android.OS;
+﻿using Android.OS;
 using Android.Runtime;
-using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Gallery.Core.ViewModels;
@@ -47,9 +45,9 @@ namespace Gallery.Droid.Views
                 .To(vm => vm.Cities);
             set.Apply();
 
-            set.Bind(_mAdapter)
-                .For(v => v.ItemClick)
-                .To(vm => vm.OnItemClick())
+            //set.Bind(_mAdapter)
+            //    .For(v => v.ItemClick)
+            //    .To(vm => vm.OnItemClick());
         }
     }    
 }
