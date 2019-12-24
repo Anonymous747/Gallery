@@ -9,6 +9,7 @@ public class MonoPackageManager_Resources {
 		"MvvmCross.Droid.Support.Design.dll",
 		"MvvmCross.Droid.Support.Fragment.dll",
 		"MvvmCross.Droid.Support.V7.AppCompat.dll",
+		"MvvmCross.Droid.Support.V7.RecyclerView.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

@@ -87,6 +87,23 @@
           "lib/monoandroid90/MvvmCross.Droid.Support.V7.AppCompat.dll": {}
         }
       },
+      "MvvmCross.Droid.Support.V7.RecyclerView/6.4.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.4.1",
+          "Xamarin.Android.Support.V7.RecyclerView": "28.0.0.3",
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -905,6 +922,24 @@
         "mvvmcross.droid.support.v7.appcompat.nuspec"
       ]
     },
+    "MvvmCross.Droid.Support.V7.RecyclerView/6.4.1": {
+      "sha512": "ydR2h5v81XE7RPZHSfHWHEzAUt53/cDOwk2WdzqJSuCPmAiqXusxbI823UCM8tCaXMQfbH/WEg5noj0ICsyrpA==",
+      "type": "package",
+      "path": "mvvmcross.droid.support.v7.recyclerview/6.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/monoandroid10.0/MvvmCross.Droid.Support.V7.RecyclerView.dll",
+        "lib/monoandroid10.0/MvvmCross.Droid.Support.V7.RecyclerView.pdb",
+        "lib/monoandroid10.0/MvvmCross.Droid.Support.V7.RecyclerView.xml",
+        "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.dll",
+        "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.pdb",
+        "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.xml",
+        "mvvmcross.droid.support.v7.recyclerview.6.4.1.nupkg.sha512",
+        "mvvmcross.droid.support.v7.recyclerview.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
       "sha512": "ss+hnEoFeyxLgHk3TrCBqTMkK6ZJqhq382AONzdVGg7cyVibvBMWPX2Xp5byB8tvRJOMRIWZnqyqgpYQIagkZA==",
       "type": "package",
@@ -1622,6 +1657,7 @@
       "Gallery.Core >= 1.0.0",
       "MvvmCross >= 6.4.1",
       "MvvmCross.Droid.Support.V7.AppCompat >= 6.4.1",
+      "MvvmCross.Droid.Support.V7.RecyclerView >= 6.4.1",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3"
     ]
@@ -1673,6 +1709,10 @@
             "version": "[6.4.1, )"
           },
           "MvvmCross.Droid.Support.V7.AppCompat": {
+            "target": "Package",
+            "version": "[6.4.1, )"
+          },
+          "MvvmCross.Droid.Support.V7.RecyclerView": {
             "target": "Package",
             "version": "[6.4.1, )"
           },

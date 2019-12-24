@@ -27,3 +27,20 @@ Gallery/Gallery.Droid/obj/
 
 Gallery/bin/
 Gallery/obj/
+
+bin
+obj
+
+bin/*
+obj/*
+
+bin*
+obj*
+
+Gallery/Gallery.Core/bin/*
+Gallery/Gallery.Core/obj/*
+Gallery/Gallery.Droid/bin/*
+Gallery/Gallery.Droid/obj/*
+
+Gallery/bin/*
+Gallery/obj/*

@@ -6,3 +6,7 @@ D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.AssemblyI
 D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.dll
 D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.pdb
 D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.csprojAssemblyReference.cache
+D:\myscript\Gallery\Gallery.Core\bin\Debug\netstandard2.0\Mono.Android.dll
+D:\myscript\Gallery\Gallery.Core\bin\Debug\netstandard2.0\Mono.Android.pdb
+D:\myscript\Gallery\Gallery.Core\bin\Debug\netstandard2.0\Mono.Android.xml
+D:\myscript\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.csproj.CopyComplete

@@ -26,6 +26,14 @@ namespace Gallery.Droid
             typeof(MvvmCross.Droid.Support.V4.MvxFragment).Assembly
         };
 
+        protected override IEnumerable<Assembly> ValueConverterAssemblies =>
+            new List<Assembly>(base.ValueConverterAssemblies)
+            {
+                typeof(Gallery.Droid.Converters.ImageNameToBitmapConverter).Assembly,
+                typeof(Gallery.Droid.Converters.ImageNameToResourceIdConverter).Assembly
+            };
+
+
         protected override IMvxAndroidViewPresenter CreateViewPresenter()
         {
             return new MvxAppCompatViewPresenter(AndroidViewAssemblies);

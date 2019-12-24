@@ -9,6 +9,7 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Droid.Su
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Droid.Support.Design.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Droid.Support.Fragment.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Droid.Support.V7.AppCompat.dll
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Droid.Support.V7.RecyclerView.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\System.Core.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\System.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\assets\System.Numerics.dll
