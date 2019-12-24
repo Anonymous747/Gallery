@@ -40,7 +40,7 @@ namespace Gallery.Droid.Views.Recycler_Adapter
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            View row = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.item_cell, parent, false);
+            View row = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.item_name, parent, false);
             MyViewHolder view = new MyViewHolder(row);
            
             return view;

@@ -9,20 +9,18 @@ android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\collection_view.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\image_page_view.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar_actionbar.xml
 attr;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
-attr;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\90\res\layout\main_page_view.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
 declare-styleable;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
-declare-styleable;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 FrameLayout;obj\Debug\90\res\layout\root_view.xml
 group;obj\Debug\90\res\menu\navigation_drawer.xml
 ImageView;obj\Debug\90\res\layout\image_page_view.xml
-ImageView;obj\Debug\90\res\layout\item_cell.xml
+ImageView;obj\Debug\90\res\layout\item_name.xml
 include;obj\Debug\90\res\layout\collection_view.xml
 include;obj\Debug\90\res\layout\help_view.xml
 include;obj\Debug\90\res\layout\main_page_view.xml
@@ -34,7 +32,7 @@ item;obj\Debug\90\res\values\styles.xml
 LinearLayout;obj\Debug\90\res\layout\collection_view.xml
 LinearLayout;obj\Debug\90\res\layout\help_view.xml
 LinearLayout;obj\Debug\90\res\layout\image_page_view.xml
-LinearLayout;obj\Debug\90\res\layout\item_cell.xml
+LinearLayout;obj\Debug\90\res\layout\item_name.xml
 LinearLayout;obj\Debug\90\res\layout\main_page_view.xml
 LinearLayout;obj\Debug\90\res\layout\navigation_header.xml
 LinearLayout;obj\Debug\90\res\layout\setting_view.xml
@@ -44,7 +42,6 @@ resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\ids.
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\2\jl\res\values\strings.xml
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\4\jl\res\xml\empty.xml
-resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
 resources;obj\Debug\90\res\values\strings.xml
@@ -53,5 +50,5 @@ string;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\2\jl\res\values\strings
 string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\image_page_view.xml
-TextView;obj\Debug\90\res\layout\item_cell.xml
+TextView;obj\Debug\90\res\layout\item_name.xml
 TextView;obj\Debug\90\res\layout\navigation_header.xml
