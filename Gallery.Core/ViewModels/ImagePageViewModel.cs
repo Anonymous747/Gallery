@@ -7,12 +7,14 @@ namespace Gallery.Core.ViewModels
     public class ImagePageViewModel : BaseViewModel<City>
     {
         private readonly IMvxNavigationService _navigationService;
-        public IMvxCommand CLoseImageCommand { get; private set; }
+        public IMvxCommand EditImageCommand { get; private set; }
+        public IMvxCommand CancelImageCommand { get; private set; }
         public ImagePageViewModel(IMvxNavigationService navigationService)
         {
             _navigationService = navigationService;
 
-            CLoseImageCommand = new MvxAsyncCommand(async () => await _navigationService.Close(this));
+            EditImageCommand = new MvxAsyncCommand(async () => await _navigationService.Close(this));
+            CancelImageCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<CollectionViewModel>());
         }
 
 

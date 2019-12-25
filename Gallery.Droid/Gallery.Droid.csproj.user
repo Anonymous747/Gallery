@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Xiaomi Mi A2 Lite</SelectedDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
-    <AndroidDesignerPreferredDevice>Galaxy Nexus</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredDevice>Nexus 5X</AndroidDesignerPreferredDevice>
     <DefaultDevice>Android_Accelerated_x86_Oreo</DefaultDevice>
   </PropertyGroup>
 </Project>

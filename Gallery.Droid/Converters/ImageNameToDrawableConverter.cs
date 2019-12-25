@@ -13,12 +13,11 @@ namespace Gallery.Droid.Converters
         protected override Drawable Convert(string value, Type targetType, object parameter, CultureInfo culture)
         {
             var topActivity = Mvx.IoCProvider.Resolve<IMvxAndroidCurrentTopActivity>();
-
             value = value.Replace(".jpg", "").Replace(".png", "");
             int id = (int)typeof(Resource.Drawable).GetField(value).GetValue(null);
             Drawable drawable = topActivity.Activity.Resources.GetDrawable(id);
+            
             return drawable;
         }
-        
     }
 }

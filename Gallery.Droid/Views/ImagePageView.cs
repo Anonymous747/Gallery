@@ -1,9 +1,11 @@
 ﻿using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.Design.Widget;
 using Android.Views;
 using Android.Widget;
 using Gallery.Core.ViewModels;
+using Gallery.Droid.Converters;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Presenters.Attributes;
 
@@ -13,9 +15,11 @@ namespace Gallery.Droid.Views
     [Register(nameof(ImagePageView))]
     class ImagePageView : BaseFragment<ImagePageViewModel>
     {
-        public string ImageName { get; set; }
-        public string Name { get; set; }
-        public string Data { get; set; }
+        public ImageView Image { get; set; }
+        public EditText Name { get; set; }
+        public TextInputEditText Data { get; set; }
+        public Button Cancel { get; set; }
+        public Button Edit { get; set; }
 
         private Android.Support.V7.Widget.Toolbar _toolbar;
         protected override int FragmentId => Resource.Layout.image_page_view;
@@ -25,18 +29,14 @@ namespace Gallery.Droid.Views
             var view = base.OnCreateView(inflater, container, savedInstanceState);
             _toolbar = view.FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_img_page);
 
-            var image = view.FindViewById<ImageView>(Resource.Id.image_page);
-            var txt_name = view.FindViewById<TextView>(Resource.Id.txt_name_page);
-            var txt_data = view.FindViewById<TextView>(Resource.Id.txt_data_page);
+            Image = view.FindViewById<ImageView>(Resource.Id.image_page);
+            Name = view.FindViewById<EditText>(Resource.Id.txt_name_page);
+            Data = view.FindViewById<TextInputEditText>(Resource.Id.txt_data_page);
+            Cancel = view.FindViewById<Button>(Resource.Id.btn_image_cancel);
+            Edit = view.FindViewById<Button>(Resource.Id.btn_image_edit);
 
             InitBinding();
-            ImageName = ImageName.Replace(".jpg", "").Replace(".png", "");
-            int id = (int)typeof(Resource.Drawable).GetField(ImageName).GetValue(null);
-            var myImage = BitmapFactory.DecodeResource(Resources, id);
-            image.SetImageBitmap(myImage);
-            txt_name.Text = Name;
-            txt_data.Text = Data;
-
+           
             this.AddBindings(_toolbar, "Title City.Name");
             _toolbar.SetTitleTextColor(Resource.Color.white); 
 
@@ -45,19 +45,20 @@ namespace Gallery.Droid.Views
         private void InitBinding()
         {
             var set = this.CreateBindingSet<ImagePageView, ImagePageViewModel>();
-            set.Bind()
-                .For(i => i.ImageName)
-                .To(vm => vm.City.Path);
-            set.Apply();
-
-            set.Bind()
-                .For(i => i.Name)
+            set.Bind(Image)
+                .For(i => i.Drawable)
+                .To(vm => vm.City.Path)
+                .WithConversion<ImageNameToDrawableConverter>();
+            set.Bind(Name)
+                .For(i => i.Text)
                 .To(vm => vm.City.Name);
-            set.Apply();
-
-            set.Bind()
-                .For(i => i.Data)
+            set.Bind(Data)
+                .For(i => i.Text)
                 .To(vm => vm.City.Data);
+            set.Bind(Edit)
+                .To(vm => vm.EditImageCommand);
+            set.Bind(Cancel)
+                .To(vm => vm.CancelImageCommand);
             set.Apply();
         }
     }

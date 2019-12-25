@@ -47,3 +47,9 @@ Gallery/obj/*
 *.java
 *.s
 *.class
+*.so
+*.dll
+*.pdb
+*.ide
+*.pdb
+*.flata
