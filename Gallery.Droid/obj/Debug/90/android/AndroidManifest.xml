@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.gallery.droid">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.gallery.droid" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -11,12 +11,12 @@
       </intent-filter>
     </activity>
     <activity android:label="Gallery" android:launchMode="singleTop" android:theme="@style/AppTheme" android:name="md52938ccd8f1955ba0798c010c3e3fa5a4.RootActivity" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.gallery.droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.gallery.droid.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.gallery.droid" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.gallery.droid" />
       </intent-filter>
     </receiver>
   </application>

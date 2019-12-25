@@ -12,6 +12,7 @@ attr;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindin
 attr;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\image_page_view.xml
 Button;obj\Debug\90\res\layout\main_page_view.xml
 color;obj\Debug\90\res\values\colors.xml
 color;obj\Debug\90\res\values\ic_launcher_background.xml
@@ -31,6 +32,7 @@ item;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
 item;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 item;obj\Debug\90\res\menu\navigation_drawer.xml
 item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\layout\collection_view.xml
 LinearLayout;obj\Debug\90\res\layout\help_view.xml
 LinearLayout;obj\Debug\90\res\layout\image_page_view.xml
 LinearLayout;obj\Debug\90\res\layout\item_cell.xml
@@ -41,6 +43,7 @@ LinearLayout;obj\Debug\90\res\layout\splash_screen.xml
 menu;obj\Debug\90\res\menu\navigation_drawer.xml
 MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView;obj\Debug\90\res\layout\collection_view.xml
 RelativeLayout;obj\Debug\90\res\layout\collection_view.xml
+RelativeLayout;obj\Debug\90\res\layout\image_page_view.xml
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 resources;D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\lp\2\jl\res\values\strings.xml

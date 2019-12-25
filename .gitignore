@@ -44,3 +44,6 @@ Gallery/Gallery.Droid/obj/*
 
 Gallery/bin/*
 Gallery/obj/*
+*.java
+*.s
+*.class

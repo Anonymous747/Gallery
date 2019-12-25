@@ -5,6 +5,7 @@ using Android.Views;
 using Android.Widget;
 using Gallery.Core.Models;
 using Gallery.Core.ViewModels;
+using Gallery.Droid.Converters;
 using Gallery.Droid.Views.Adapter;
 using Gallery.Droid.Views.Extensions;
 using MvvmCross.Binding.BindingContext;
@@ -46,7 +47,8 @@ namespace Gallery.Droid.Views
                            .To(vm => vm.Data);
                     itemSet.Bind(itemView.FindViewById<ImageView>(Resource.Id.img_path))
                             .For(v => v.Drawable)
-                            .To(vm => vm.Path);
+                            .To(vm => vm.Path)
+                            .WithConversion<ImageNameToDrawableConverter>();
                 }))
             .For(v => v.ItemsSource)
             .To(vm => vm.Cities);
@@ -54,11 +56,6 @@ namespace Gallery.Droid.Views
                 .For(v => v.ItemClick)
                 .To(vm => vm.CitySelectedCommand);
             set.Apply();
-        }
-        public int Converter(string value)
-        {
-            value = value.Replace(".jpg", "").Replace(".png", "");
-            return (int)typeof(Resource.Drawable).GetField(value).GetValue(null);
         }
     }    
 }

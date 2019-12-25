@@ -23,7 +23,7 @@ namespace Gallery.Droid.Views
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = base.OnCreateView(inflater, container, savedInstanceState);
-            _toolbar = view.FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            _toolbar = view.FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_img_page);
 
             var image = view.FindViewById<ImageView>(Resource.Id.image_page);
             var txt_name = view.FindViewById<TextView>(Resource.Id.txt_name_page);

@@ -2,8 +2,8 @@
 	.section	.rodata..L.str.1,"aMS",@progbits,1
 	.type	.L.str.1, @object
 .L.str.1:
-	.asciz	"com.companyname.gallery.droid"
-	.size	.L.str.1, 30
+	.asciz	"com.gallery.droid"
+	.size	.L.str.1, 18
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
 	.p2align	3
@@ -62,7 +62,7 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.8,"aMS",@progbits,1
 	.type	.L.str.8, @object
 .L.str.8:
-	.asciz	"067d5e0e-d3f9-4855-93fb-5a56e9988b7b"
+	.asciz	"772c138c-ae24-4a0f-a82b-bda301a9c645"
 	.size	.L.str.8, 37
 	.section	.rodata..L.str.9,"aMS",@progbits,1
 	.type	.L.str.9, @object

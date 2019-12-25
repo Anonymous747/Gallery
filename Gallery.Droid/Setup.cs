@@ -30,7 +30,7 @@ namespace Gallery.Droid
             new List<Assembly>(base.ValueConverterAssemblies)
             {
                 typeof(Gallery.Droid.Converters.ImageNameToBitmapConverter).Assembly,
-                typeof(Gallery.Droid.Converters.ImageNameToResourceIdConverter).Assembly
+                typeof(Gallery.Droid.Converters.ImageNameToDrawableConverter).Assembly
             };
 
 

@@ -24,8 +24,6 @@ namespace Gallery.Core.ViewModels
 
         public override Task Initialize()
         {
-            CitiesViewModel temp = new CitiesViewModel();
-            _cities = temp.Cities;
             _cities = new MvxObservableCollection<City>();
             _cities.Add(new City("Germany", "Some information about it", "Germany.jpg"));
             _cities.Add(new City("Japan", "Some information about it", "Japan.jpg"));
@@ -56,12 +54,7 @@ namespace Gallery.Core.ViewModels
 
         private async Task ImageSelected(City selectedPerson)
         {
-            var result = await _navigationService.Navigate<ImagePageViewModel, City>(selectedPerson);
-        }
-
-        public async void OnItemClick(object sender, int position)
-        {
-            await ImageSelected(Cities[position]);
+            await _navigationService.Navigate<ImagePageViewModel, City>(selectedPerson);
         }
     }
 }

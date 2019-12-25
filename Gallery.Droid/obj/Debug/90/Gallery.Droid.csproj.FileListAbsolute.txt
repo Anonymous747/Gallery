@@ -1,7 +1,5 @@
 D:\myscript\Gallery\Gallery.Droid\bin\Debug\Gallery.Droid.dll
 D:\myscript\Gallery\Gallery.Droid\bin\Debug\Gallery.Droid.pdb
-D:\myscript\Gallery\Gallery.Droid\bin\Debug\com.companyname.gallery.droid.apk
-D:\myscript\Gallery\Gallery.Droid\bin\Debug\com.companyname.gallery.droid-Signed.apk
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\build.props
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\adb.props
@@ -16,7 +14,6 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\R.txt
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\R.cs.flag
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\Gallery.Droid.dll
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\Gallery.Droid.pdb
-D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\bin\com.companyname.gallery.droid.apk
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\values\colors.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\values\ic_launcher_background.xml
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\res\values\strings.xml
@@ -433,3 +430,7 @@ D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\mvvmcross\droid\suppo
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d06e2ef62e3c16d\MyMvxRecyclerAdapte.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d06e2ef62e3c16d\MyMvxViewHolder.java
 D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\md569adb679302003a85d06e2ef62e3c16d\MyMvxViewHolder_1.java
+D:\myscript\Gallery\Gallery.Droid\bin\Debug\com.gallery.droid.apk
+D:\myscript\Gallery\Gallery.Droid\bin\Debug\com.gallery.droid-Signed.apk
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\bin\com.gallery.droid.apk
+D:\myscript\Gallery\Gallery.Droid\obj\Debug\90\android\src\com\gallery\droid\R.java
