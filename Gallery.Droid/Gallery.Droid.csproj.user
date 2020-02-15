@@ -4,6 +4,6 @@
     <SelectedDevice>Xiaomi Mi A2 Lite</SelectedDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 5X</AndroidDesignerPreferredDevice>
-    <DefaultDevice>Android_Accelerated_x86_Oreo</DefaultDevice>
+    <DefaultDevice>pixel_2_nougat_7_0_-_api_24</DefaultDevice>
   </PropertyGroup>
 </Project>

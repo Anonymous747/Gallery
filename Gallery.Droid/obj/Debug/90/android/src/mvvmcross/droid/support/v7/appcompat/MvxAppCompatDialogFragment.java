@@ -2,7 +2,7 @@ package mvvmcross.droid.support.v7.appcompat;
 
 
 public abstract class MvxAppCompatDialogFragment
-	extends md5c44e626e43e5b8d6d42d28410a243d52.MvxEventSourceAppCompatDialogFragment
+	extends crc64637580874e6ea20c.MvxEventSourceAppCompatDialogFragment
 	implements
 		mono.android.IGCUserPeer
 {

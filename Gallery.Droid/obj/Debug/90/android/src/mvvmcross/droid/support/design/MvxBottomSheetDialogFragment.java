@@ -2,7 +2,7 @@ package mvvmcross.droid.support.design;
 
 
 public abstract class MvxBottomSheetDialogFragment
-	extends md5c9f350ddc72c8c1b2b97254113b6fae1.MvxEventSourceBottomSheetDialogFragment
+	extends crc645ed4b3a3b8826996.MvxEventSourceBottomSheetDialogFragment
 	implements
 		mono.android.IGCUserPeer
 {

@@ -2,7 +2,7 @@ package mvvmcross.droid.support.v7.appcompat;
 
 
 public class MvxAppCompatActivity
-	extends md5c44e626e43e5b8d6d42d28410a243d52.MvxEventSourceAppCompatActivity
+	extends crc64637580874e6ea20c.MvxEventSourceAppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

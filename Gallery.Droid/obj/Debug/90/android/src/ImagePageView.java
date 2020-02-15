@@ -1,6 +1,6 @@
 
 public class ImagePageView
-	extends md52938ccd8f1955ba0798c010c3e3fa5a4.BaseFragment_1
+	extends crc64d95292e59601283d.BaseFragment_1
 	implements
 		mono.android.IGCUserPeer
 {

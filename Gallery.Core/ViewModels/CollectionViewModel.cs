@@ -3,18 +3,21 @@ using MvvmCross.Navigation;
 using Gallery.Core.Models;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
+using Gallery.Core.Services.Interfaces;
 
 namespace Gallery.Core.ViewModels
 {
     public class CollectionViewModel : BaseViewModel
     {
         private readonly IMvxNavigationService _navigationService;
+        private readonly ICityServise _cityServise;
 
         public IMvxCommand<City> CitySelectedCommand { get; private set; }
 
-        public CollectionViewModel(
+        public CollectionViewModel(ICityServise cityServise,
             IMvxNavigationService navigationService)
         {
+            _cityServise = cityServise;
             _navigationService = navigationService;
 
             Cities = new MvxObservableCollection<City>();

@@ -1,6 +1,6 @@
 
 public class MenuFragment
-	extends md50f9f53a3e05887909c76670e98dcc244.MvxFragment_1
+	extends crc648328b737091c6ab5.MvxFragment_1
 	implements
 		mono.android.IGCUserPeer,
 		android.support.design.widget.NavigationView.OnNavigationItemSelectedListener

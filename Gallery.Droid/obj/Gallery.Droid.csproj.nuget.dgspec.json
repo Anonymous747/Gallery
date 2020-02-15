@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\myscript\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj": {}
+    "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj": {}
   },
   "projects": {
-    "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj": {
+    "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj",
+        "projectUniqueName": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj",
         "projectName": "Gallery.Core",
-        "projectPath": "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj",
-        "packagesPath": "C:\\Users\\Misha\\.nuget\\packages\\",
-        "outputPath": "D:\\myscript\\Gallery\\Gallery.Core\\obj\\",
+        "projectPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj",
+        "packagesPath": "C:\\Users\\kobri\\.nuget\\packages\\",
+        "outputPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kobri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -64,25 +64,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\myscript\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj": {
+    "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\myscript\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
+        "projectUniqueName": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
         "projectName": "Gallery.Droid",
-        "projectPath": "D:\\myscript\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
-        "packagesPath": "C:\\Users\\Misha\\.nuget\\packages\\",
-        "outputPath": "D:\\myscript\\Gallery\\Gallery.Droid\\obj\\",
+        "projectPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
+        "packagesPath": "C:\\Users\\kobri\\.nuget\\packages\\",
+        "outputPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Misha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kobri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -96,8 +96,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj": {
-                "projectPath": "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj"
+              "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj": {
+                "projectPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj"
               }
             }
           }

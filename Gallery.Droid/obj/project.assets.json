@@ -1663,24 +1663,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Misha\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\kobri\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\myscript\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
+      "projectUniqueName": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
       "projectName": "Gallery.Droid",
-      "projectPath": "D:\\myscript\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
-      "packagesPath": "C:\\Users\\Misha\\.nuget\\packages\\",
-      "outputPath": "D:\\myscript\\Gallery\\Gallery.Droid\\obj\\",
+      "projectPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\Gallery.Droid.csproj",
+      "packagesPath": "C:\\Users\\kobri\\.nuget\\packages\\",
+      "outputPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Misha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kobri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1694,8 +1694,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj": {
-              "projectPath": "D:\\myscript\\Gallery\\Gallery.Core\\Gallery.Core.csproj"
+            "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj": {
+              "projectPath": "D:\\myscript\\GitHab\\Gallery\\Gallery\\Gallery.Core\\Gallery.Core.csproj"
             }
           }
         }

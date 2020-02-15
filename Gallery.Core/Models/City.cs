@@ -1,6 +1,8 @@
-﻿namespace Gallery.Core.Models
+﻿using Gallery.Core.Models.Interfaces;
+
+namespace Gallery.Core.Models
 {
-    public class City
+    public class City : ICity
     {
         public string Name { get; set; }
         public string Data { get; set; }
