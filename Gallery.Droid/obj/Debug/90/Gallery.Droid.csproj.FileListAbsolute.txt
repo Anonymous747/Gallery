@@ -834,3 +834,10 @@ D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\stamp\_ConvertReso
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Plugin.Messenger.dll
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Plugin.Messenger.pdb
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\src\mvvmcross\droid\support\v7\recyclerview\MvxGuardedGridLayoutManager.java
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Plugin.Json.dll
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Plugin.Json.pdb
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\src\crc64222d3f1540d91665\CityService.java

@@ -9,7 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "Gallery.Core/1.0.0": {
         "dependencies": {
-          "MvvmCross": "6.4.1",
+          "MvvmCross": "6.4.3",
+          "MvvmCross.Plugin.Json": "6.4.3",
+          "MvvmCross.Plugin.Messenger": "6.4.3",
           "NETStandard.Library": "2.0.3",
           "Mono.Android": "0.0.0.0"
         },
@@ -18,17 +20,48 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "MvvmCross/6.4.1": {
+      "MvvmCross/6.4.3": {
         "runtime": {
           "lib/netstandard2.0/MvvmCross.dll": {
-            "assemblyVersion": "6.4.1.0",
-            "fileVersion": "6.4.1.0"
+            "assemblyVersion": "6.4.3.0",
+            "fileVersion": "6.4.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Json/6.4.3": {
+        "dependencies": {
+          "MvvmCross": "6.4.3",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Json.dll": {
+            "assemblyVersion": "6.4.3.0",
+            "fileVersion": "6.4.3.0"
+          }
+        }
+      },
+      "MvvmCross.Plugin.Messenger/6.4.3": {
+        "dependencies": {
+          "MvvmCross": "6.4.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Messenger.dll": {
+            "assemblyVersion": "6.4.3.0",
+            "fileVersion": "6.4.3.0"
           }
         }
       },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
         }
       },
       "Mono.Android/0.0.0.0": {
@@ -54,12 +87,26 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "MvvmCross/6.4.1": {
+    "MvvmCross/6.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SvV1SKvNnFwVDg1r2BWI4x1bXXzqNj2OsbEEw8W/Mvw2AbfzG9xIjOO6HBbtxVxM6vc3riWUcO5vvSiBeTeuTA==",
-      "path": "mvvmcross/6.4.1",
-      "hashPath": "mvvmcross.6.4.1.nupkg.sha512"
+      "sha512": "sha512-/pU4w6AutHY6CIo+YnovJruFmfWZKQ2WGiItvx8PfPUnMYub3MARy3m5zlfGrysUVcRybucfTMky3HDLS3AnjA==",
+      "path": "mvvmcross/6.4.3",
+      "hashPath": "mvvmcross.6.4.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Json/6.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sEyJBNRtEV/H0jkCHsUgbMjI/NIwTkjXfuRcGmcsceqf60W0kRRTlR8liKDj2f/HLFMtjqzFuaFGLNaklIqQnQ==",
+      "path": "mvvmcross.plugin.json/6.4.3",
+      "hashPath": "mvvmcross.plugin.json.6.4.3.nupkg.sha512"
+    },
+    "MvvmCross.Plugin.Messenger/6.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I4C/JM5rw//MZfpZGUsCzhV9hL6vBsBvjiiNTj4NJDT6DZ9F+F7xMGrSYfQUqgoUfOwQfQ4GtC+dULYRfWncCA==",
+      "path": "mvvmcross.plugin.messenger/6.4.3",
+      "hashPath": "mvvmcross.plugin.messenger.6.4.3.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
@@ -67,6 +114,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "Mono.Android/0.0.0.0": {
       "type": "reference",

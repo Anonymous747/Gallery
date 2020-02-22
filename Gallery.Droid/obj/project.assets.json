@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
-      "MvvmCross/6.4.1": {
+      "MvvmCross/6.4.3": {
         "type": "package",
         "frameworkAssemblies": [
           "Java.Interop"
@@ -14,10 +14,10 @@
           "lib/monoandroid90/MvvmCross.dll": {}
         }
       },
-      "MvvmCross.Droid.Support.Core.UI/6.4.1": {
+      "MvvmCross.Droid.Support.Core.UI/6.4.3": {
         "type": "package",
         "dependencies": {
-          "MvvmCross": "6.4.1",
+          "MvvmCross": "6.4.3",
           "Xamarin.Android.Support.Core.UI": "28.0.0.3",
           "Xamarin.Build.Download": "0.4.11"
         },
@@ -31,11 +31,11 @@
           "lib/monoandroid90/MvvmCross.Droid.Support.Core.UI.dll": {}
         }
       },
-      "MvvmCross.Droid.Support.Design/6.4.1": {
+      "MvvmCross.Droid.Support.Design/6.4.3": {
         "type": "package",
         "dependencies": {
-          "MvvmCross": "6.4.1",
-          "MvvmCross.Droid.Support.Fragment": "6.4.1",
+          "MvvmCross": "6.4.3",
+          "MvvmCross.Droid.Support.Fragment": "6.4.3",
           "Xamarin.Android.Support.Design": "28.0.0.3",
           "Xamarin.Build.Download": "0.4.11"
         },
@@ -49,10 +49,10 @@
           "lib/monoandroid90/MvvmCross.Droid.Support.Design.dll": {}
         }
       },
-      "MvvmCross.Droid.Support.Fragment/6.4.1": {
+      "MvvmCross.Droid.Support.Fragment/6.4.3": {
         "type": "package",
         "dependencies": {
-          "MvvmCross": "6.4.1",
+          "MvvmCross": "6.4.3",
           "Xamarin.Android.Support.Fragment": "28.0.0.3",
           "Xamarin.Build.Download": "0.4.11"
         },
@@ -66,13 +66,13 @@
           "lib/monoandroid90/MvvmCross.Droid.Support.Fragment.dll": {}
         }
       },
-      "MvvmCross.Droid.Support.V7.AppCompat/6.4.1": {
+      "MvvmCross.Droid.Support.V7.AppCompat/6.4.3": {
         "type": "package",
         "dependencies": {
-          "MvvmCross": "6.4.1",
-          "MvvmCross.Droid.Support.Core.UI": "6.4.1",
-          "MvvmCross.Droid.Support.Design": "6.4.1",
-          "MvvmCross.Droid.Support.Fragment": "6.4.1",
+          "MvvmCross": "6.4.3",
+          "MvvmCross.Droid.Support.Core.UI": "6.4.3",
+          "MvvmCross.Droid.Support.Design": "6.4.3",
+          "MvvmCross.Droid.Support.Fragment": "6.4.3",
           "Xamarin.Android.Support.Design": "28.0.0.3",
           "Xamarin.Android.Support.V7.AppCompat": "28.0.0.3",
           "Xamarin.Build.Download": "0.4.11"
@@ -87,10 +87,10 @@
           "lib/monoandroid90/MvvmCross.Droid.Support.V7.AppCompat.dll": {}
         }
       },
-      "MvvmCross.Droid.Support.V7.RecyclerView/6.4.1": {
+      "MvvmCross.Droid.Support.V7.RecyclerView/6.4.3": {
         "type": "package",
         "dependencies": {
-          "MvvmCross": "6.4.1",
+          "MvvmCross": "6.4.3",
           "Xamarin.Android.Support.V7.RecyclerView": "28.0.0.3",
           "Xamarin.Build.Download": "0.4.11"
         },
@@ -102,6 +102,40 @@
         },
         "runtime": {
           "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Json/6.4.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.4.3",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Json.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Messenger/6.4.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.4.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Messenger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.Plugin.Messenger.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -791,7 +825,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MvvmCross": "6.4.1"
+          "MvvmCross": "6.4.3",
+          "MvvmCross.Plugin.Json": "6.4.3",
+          "MvvmCross.Plugin.Messenger": "6.4.3"
         },
         "compile": {
           "bin/placeholder/Gallery.Core.dll": {}
@@ -803,10 +839,10 @@
     }
   },
   "libraries": {
-    "MvvmCross/6.4.1": {
-      "sha512": "SvV1SKvNnFwVDg1r2BWI4x1bXXzqNj2OsbEEw8W/Mvw2AbfzG9xIjOO6HBbtxVxM6vc3riWUcO5vvSiBeTeuTA==",
+    "MvvmCross/6.4.3": {
+      "sha512": "/pU4w6AutHY6CIo+YnovJruFmfWZKQ2WGiItvx8PfPUnMYub3MARy3m5zlfGrysUVcRybucfTMky3HDLS3AnjA==",
       "type": "package",
-      "path": "mvvmcross/6.4.1",
+      "path": "mvvmcross/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -823,6 +859,12 @@
         "lib/netcoreapp2.1/MvvmCross.dll",
         "lib/netcoreapp2.1/MvvmCross.pdb",
         "lib/netcoreapp2.1/MvvmCross.xml",
+        "lib/netcoreapp3.0/MvvmCross.dll",
+        "lib/netcoreapp3.0/MvvmCross.pdb",
+        "lib/netcoreapp3.0/MvvmCross.xml",
+        "lib/netcoreapp3.1/MvvmCross.dll",
+        "lib/netcoreapp3.1/MvvmCross.pdb",
+        "lib/netcoreapp3.1/MvvmCross.xml",
         "lib/netstandard2.0/MvvmCross.dll",
         "lib/netstandard2.0/MvvmCross.pdb",
         "lib/netstandard2.0/MvvmCross.xml",
@@ -845,15 +887,15 @@
         "lib/xamarinwatchos10/MvvmCross.dll",
         "lib/xamarinwatchos10/MvvmCross.pdb",
         "lib/xamarinwatchos10/MvvmCross.xml",
-        "mvvmcross.6.4.1.nupkg.sha512",
+        "mvvmcross.6.4.3.nupkg.sha512",
         "mvvmcross.nuspec",
         "readme.txt"
       ]
     },
-    "MvvmCross.Droid.Support.Core.UI/6.4.1": {
-      "sha512": "HvKovpyeFTVGZUfNFjYBczffYnFaQ0nvHRGRj5NQ3RB32/fXum6wDQBQxLS+Cl7hwzyOmgzWxI9b+UZmxq3ZVQ==",
+    "MvvmCross.Droid.Support.Core.UI/6.4.3": {
+      "sha512": "yLtt8mZzdNe1ttcsqHP7w4VngAMTXGP3UQMp9ufx0rvks54ubft7b/gmkmIS/9J5bICVNtTxvxYJFmFJDGMpdQ==",
       "type": "package",
-      "path": "mvvmcross.droid.support.core.ui/6.4.1",
+      "path": "mvvmcross.droid.support.core.ui/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -864,14 +906,14 @@
         "lib/monoandroid90/MvvmCross.Droid.Support.Core.UI.dll",
         "lib/monoandroid90/MvvmCross.Droid.Support.Core.UI.pdb",
         "lib/monoandroid90/MvvmCross.Droid.Support.Core.UI.xml",
-        "mvvmcross.droid.support.core.ui.6.4.1.nupkg.sha512",
+        "mvvmcross.droid.support.core.ui.6.4.3.nupkg.sha512",
         "mvvmcross.droid.support.core.ui.nuspec"
       ]
     },
-    "MvvmCross.Droid.Support.Design/6.4.1": {
-      "sha512": "QjKJ64KN4onOx6M+fSPdxPfXXvI2hDztx26uvpwr619XwY04rE7sAUhpaPGLFTmjFYasDc/0hcvfYq3dEyLHgQ==",
+    "MvvmCross.Droid.Support.Design/6.4.3": {
+      "sha512": "IcHPR9uXq7spNxeMtXRqwEc93El7zBl95Arid0pJZ2kUDv3EN73IQeqfbBmFgNDPgNmVJS3mE2uMJzNKrozt0w==",
       "type": "package",
-      "path": "mvvmcross.droid.support.design/6.4.1",
+      "path": "mvvmcross.droid.support.design/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -882,14 +924,14 @@
         "lib/monoandroid90/MvvmCross.Droid.Support.Design.dll",
         "lib/monoandroid90/MvvmCross.Droid.Support.Design.pdb",
         "lib/monoandroid90/MvvmCross.Droid.Support.Design.xml",
-        "mvvmcross.droid.support.design.6.4.1.nupkg.sha512",
+        "mvvmcross.droid.support.design.6.4.3.nupkg.sha512",
         "mvvmcross.droid.support.design.nuspec"
       ]
     },
-    "MvvmCross.Droid.Support.Fragment/6.4.1": {
-      "sha512": "MUPZImlSmpnjQ2gUl29EQoWPAlM/kjAnteCLG+zFJ2zDDJml7qaiHpN7jtnMeCgyO0bcewBB12CJQvejCvYuIw==",
+    "MvvmCross.Droid.Support.Fragment/6.4.3": {
+      "sha512": "NdavQJ6fr2FphW9IaMsWTn7hf+xG9vqoi5CLL2HILZ7vkTRJ28CzOVypodmS2o7wJk27HY8mZ3kawJ5FZeKSNA==",
       "type": "package",
-      "path": "mvvmcross.droid.support.fragment/6.4.1",
+      "path": "mvvmcross.droid.support.fragment/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -900,14 +942,14 @@
         "lib/monoandroid90/MvvmCross.Droid.Support.Fragment.dll",
         "lib/monoandroid90/MvvmCross.Droid.Support.Fragment.pdb",
         "lib/monoandroid90/MvvmCross.Droid.Support.Fragment.xml",
-        "mvvmcross.droid.support.fragment.6.4.1.nupkg.sha512",
+        "mvvmcross.droid.support.fragment.6.4.3.nupkg.sha512",
         "mvvmcross.droid.support.fragment.nuspec"
       ]
     },
-    "MvvmCross.Droid.Support.V7.AppCompat/6.4.1": {
-      "sha512": "R6nBt79Cf4X6lHdG5n993by1CrDYWoIzuC2ya4LL4/jVPxZyebQPxLCQSe2yXSbDLGCE00oCPGlk0FaQ2Ru1Xg==",
+    "MvvmCross.Droid.Support.V7.AppCompat/6.4.3": {
+      "sha512": "KjxxhYxl2MCF8bwSgjmQY5JzSqU+pGkTNlPRdch0yhUGcivVmnnka4OZGJHo66hzDpCnatgCFMm3ZTtsci18SQ==",
       "type": "package",
-      "path": "mvvmcross.droid.support.v7.appcompat/6.4.1",
+      "path": "mvvmcross.droid.support.v7.appcompat/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -918,14 +960,14 @@
         "lib/monoandroid90/MvvmCross.Droid.Support.V7.AppCompat.dll",
         "lib/monoandroid90/MvvmCross.Droid.Support.V7.AppCompat.pdb",
         "lib/monoandroid90/MvvmCross.Droid.Support.V7.AppCompat.xml",
-        "mvvmcross.droid.support.v7.appcompat.6.4.1.nupkg.sha512",
+        "mvvmcross.droid.support.v7.appcompat.6.4.3.nupkg.sha512",
         "mvvmcross.droid.support.v7.appcompat.nuspec"
       ]
     },
-    "MvvmCross.Droid.Support.V7.RecyclerView/6.4.1": {
-      "sha512": "ydR2h5v81XE7RPZHSfHWHEzAUt53/cDOwk2WdzqJSuCPmAiqXusxbI823UCM8tCaXMQfbH/WEg5noj0ICsyrpA==",
+    "MvvmCross.Droid.Support.V7.RecyclerView/6.4.3": {
+      "sha512": "HrBGn1wcRoyqCnoXBS85b8+ef4i47j9tEqr8ahU2caFoYpccrX0wvKbUCGb3QbQjzaFW+Ii4SG5qtetCo8tSnw==",
       "type": "package",
-      "path": "mvvmcross.droid.support.v7.recyclerview/6.4.1",
+      "path": "mvvmcross.droid.support.v7.recyclerview/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -936,8 +978,69 @@
         "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.dll",
         "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.pdb",
         "lib/monoandroid90/MvvmCross.Droid.Support.V7.RecyclerView.xml",
-        "mvvmcross.droid.support.v7.recyclerview.6.4.1.nupkg.sha512",
+        "mvvmcross.droid.support.v7.recyclerview.6.4.3.nupkg.sha512",
         "mvvmcross.droid.support.v7.recyclerview.nuspec"
+      ]
+    },
+    "MvvmCross.Plugin.Json/6.4.3": {
+      "sha512": "sEyJBNRtEV/H0jkCHsUgbMjI/NIwTkjXfuRcGmcsceqf60W0kRRTlR8liKDj2f/HLFMtjqzFuaFGLNaklIqQnQ==",
+      "type": "package",
+      "path": "mvvmcross.plugin.json/6.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/MvvmCross.Plugin.Json.dll",
+        "lib/netstandard2.0/MvvmCross.Plugin.Json.pdb",
+        "lib/netstandard2.0/MvvmCross.Plugin.Json.xml",
+        "mvvmcross.plugin.json.6.4.3.nupkg.sha512",
+        "mvvmcross.plugin.json.nuspec"
+      ]
+    },
+    "MvvmCross.Plugin.Messenger/6.4.3": {
+      "sha512": "I4C/JM5rw//MZfpZGUsCzhV9hL6vBsBvjiiNTj4NJDT6DZ9F+F7xMGrSYfQUqgoUfOwQfQ4GtC+dULYRfWncCA==",
+      "type": "package",
+      "path": "mvvmcross.plugin.messenger/6.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/MvvmCross.Plugin.Messenger.dll",
+        "lib/netstandard2.0/MvvmCross.Plugin.Messenger.pdb",
+        "lib/netstandard2.0/MvvmCross.Plugin.Messenger.xml",
+        "mvvmcross.plugin.messenger.6.4.3.nupkg.sha512",
+        "mvvmcross.plugin.messenger.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -1655,9 +1758,11 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "Gallery.Core >= 1.0.0",
-      "MvvmCross >= 6.4.1",
-      "MvvmCross.Droid.Support.V7.AppCompat >= 6.4.1",
-      "MvvmCross.Droid.Support.V7.RecyclerView >= 6.4.1",
+      "MvvmCross >= 6.4.3",
+      "MvvmCross.Droid.Support.V7.AppCompat >= 6.4.3",
+      "MvvmCross.Droid.Support.V7.RecyclerView >= 6.4.3",
+      "MvvmCross.Plugin.Json >= 6.4.3",
+      "MvvmCross.Plugin.Messenger >= 6.4.3",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3"
     ]
@@ -1706,15 +1811,23 @@
         "dependencies": {
           "MvvmCross": {
             "target": "Package",
-            "version": "[6.4.1, )"
+            "version": "[6.4.3, )"
           },
           "MvvmCross.Droid.Support.V7.AppCompat": {
             "target": "Package",
-            "version": "[6.4.1, )"
+            "version": "[6.4.3, )"
           },
           "MvvmCross.Droid.Support.V7.RecyclerView": {
             "target": "Package",
-            "version": "[6.4.1, )"
+            "version": "[6.4.3, )"
+          },
+          "MvvmCross.Plugin.Json": {
+            "target": "Package",
+            "version": "[6.4.3, )"
+          },
+          "MvvmCross.Plugin.Messenger": {
+            "target": "Package",
+            "version": "[6.4.3, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",

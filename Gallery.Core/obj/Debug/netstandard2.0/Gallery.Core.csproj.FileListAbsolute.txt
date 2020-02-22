@@ -22,3 +22,5 @@ D:\myscript\GitHab\Gallery\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.csproj.CopyComplete
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.dll
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.pdb
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.Properties.Resources.resources
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Core\obj\Debug\netstandard2.0\Gallery.Core.csproj.GenerateResource.cache

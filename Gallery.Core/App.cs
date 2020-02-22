@@ -1,4 +1,6 @@
-﻿using Gallery.Core.Services.Interfaces;
+﻿using Gallery.Core.Rest.Implementation;
+using Gallery.Core.Rest.Intarface;
+using Gallery.Core.Services.Interfaces;
 using Gallery.Core.Services.Realisation;
 using Gallery.Core.ViewModels;
 using MvvmCross;
@@ -11,13 +13,10 @@ namespace Gallery.Core
     {
         public override void Initialize()
         {
-            /*CreatableTypes()
-                .EndingWith("Servise")
+            CreatableTypes()
+                .EndingWith("Serviсe")
                 .AsInterfaces()
-                .RegisterAsSingleton();*/
-
-
-            //Mvx.IoCProvider.RegisterSingleton<ICityServise>(new CityServise());
+                .RegisterAsLazySingleton();
 
             // register the appstart object
             RegisterAppStart<RootViewModel>();

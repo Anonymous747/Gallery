@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Gallery.Core.Services.Interfaces
 {
-    public interface ICityServise
+    public interface ICityService
     {
         Task<PagedResult<City>> GetCitiesAsync(string url = null);
+        PagedResult<City> GetMockedCity();
     }
 }

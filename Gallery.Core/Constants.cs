@@ -6,6 +6,6 @@ namespace Gallery.Core
 {
     public class Constants
     {
-        public const string BaseUrl = "https://gorest.co.in/public-data/photos";///view/2.html
+        public const string BaseUrl = "https://jsonplaceholder.typicode.com";          //https://gorest.co.in/public-data/photos";///view/2.html
     }
 }

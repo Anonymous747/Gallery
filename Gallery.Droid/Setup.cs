@@ -1,8 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 using Gallery.Core;
+using Gallery.Core.Rest.Implementation;
+using Gallery.Core.Rest.Intarface;
+using Gallery.Core.Services.Interfaces;
+using Gallery.Core.Services.Realisation;
+using MvvmCross;
+using MvvmCross.Base;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platforms.Android.Presenters;
+using MvvmCross.Plugin.Json;
 using MvvmCross.ViewModels;
 
 namespace Gallery.Droid
@@ -11,6 +18,9 @@ namespace Gallery.Droid
     {
         protected override IMvxApplication CreateApp()
         {
+            Mvx.IoCProvider.RegisterType<IMvxJsonConverter, MvxJsonConverter>();
+            Mvx.IoCProvider.RegisterType<IRestClient, RestClient>();
+            Mvx.IoCProvider.RegisterType<ICityService, CityService>();
             return new App();
         }
 

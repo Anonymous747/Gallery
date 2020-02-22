@@ -4,18 +4,23 @@ using Gallery.Core.Models;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 using Gallery.Core.Services.Interfaces;
+using Gallery.Core.Models.Interfaces;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Gallery.Core.ViewModels
 {
     public class CollectionViewModel : BaseViewModel
     {
         private readonly IMvxNavigationService _navigationService;
-        private readonly ICityServise _cityServise;
+        private readonly ICityService _cityServise;
+
+        private string _nextPage;
 
         public IMvxCommand<City> CitySelectedCommand { get; private set; }
 
-        public CollectionViewModel(ICityServise cityServise,
-            IMvxNavigationService navigationService)
+        public CollectionViewModel(IMvxNavigationService navigationService,
+            ICityService cityServise)
         {
             _cityServise = cityServise;
             _navigationService = navigationService;
@@ -38,6 +43,7 @@ namespace Gallery.Core.ViewModels
             _cities.Add(new City("Japan", "Some information about it", "Japan.jpg"));
             _cities.Add(new City("New York", "Some information about it", "NewYouk.jpg"));
 
+
             return base.Initialize();
         }
 
@@ -53,6 +59,32 @@ namespace Gallery.Core.ViewModels
                 _cities = value;
                 RaisePropertyChanged(() => Cities);
             }
+        }
+
+        private async Task LoadCities()
+        {
+            var result = await _cityServise.GetCitiesAsync(_nextPage);
+
+            MvxObservableCollection<City> citiesToAdd = new MvxObservableCollection<City>();
+            for (int i = 0; i < result.Results.Count(); i++)
+            {
+                if (i % 2 == 0)
+                {
+                    citiesToAdd.Add(result.Results.ElementAt(i));
+                }
+                else
+                {
+                    citiesToAdd.Add(result.Results.ElementAt(i));
+                }
+            }
+
+            if (string.IsNullOrEmpty(_nextPage))
+            {
+                Cities.Clear();
+            }
+            Cities.AddRange(citiesToAdd);
+
+            _nextPage = result.Next;
         }
 
         private async Task ImageSelected(City selectedPerson)

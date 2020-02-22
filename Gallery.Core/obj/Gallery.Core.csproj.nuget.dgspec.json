@@ -45,7 +45,15 @@
           "dependencies": {
             "MvvmCross": {
               "target": "Package",
-              "version": "[6.4.1, )"
+              "version": "[6.4.3, )"
+            },
+            "MvvmCross.Plugin.Json": {
+              "target": "Package",
+              "version": "[6.4.3, )"
+            },
+            "MvvmCross.Plugin.Messenger": {
+              "target": "Package",
+              "version": "[6.4.3, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

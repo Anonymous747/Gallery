@@ -1,4 +1,7 @@
-﻿using Gallery.Core.Models;
+﻿using Android.App;
+using Android.Content;
+using Android.OS;
+using Gallery.Core.Models;
 using Gallery.Core.Rest.Intarface;
 using Gallery.Core.Services.Interfaces;
 using System;
@@ -9,11 +12,12 @@ using System.Threading.Tasks;
 
 namespace Gallery.Core.Services.Realisation
 {
-    public class CityServise : ICityServise
+    
+    public class CityService : ICityService
     {
         private readonly IRestClient _restClient;
 
-        public CityServise(IRestClient restClient)
+        public CityService(IRestClient restClient)
         {
             _restClient = restClient;
         }
@@ -21,18 +25,18 @@ namespace Gallery.Core.Services.Realisation
         public Task<PagedResult<City>> GetCitiesAsync(string url = null)
         {
             return string.IsNullOrEmpty(url)
-                ? _restClient.MakeApiCall<PagedResult<City>>($"{Constants.BaseUrl}/view/", HttpMethod.Get)
+                ? _restClient.MakeApiCall<PagedResult<City>>($"{Constants.BaseUrl}/todos/1", HttpMethod.Get)
                 : _restClient.MakeApiCall<PagedResult<City>>(url, HttpMethod.Get);
         }
 
-        private PagedResult<City> GetMockedCity()
+        public PagedResult<City> GetMockedCity()
         {
             return new PagedResult<City>()
             {
                 Count = 3,
                 Next = string.Empty,
                 Previous = string.Empty,
-                Result = new List<City>
+                Results = new List<City>
                 {
                     new City
                     (
