@@ -9391,10 +9391,22 @@ namespace Gallery.Droid
 			public const int visible = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int withText = 2131230932;
+			public const int widget_annoncement_icon = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int wrap_content = 2131230933;
+			public const int widget_background = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int widget_medium = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int widget_small = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int withText = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int wrap_content = 2131230937;
 			
 			static Id()
 			{
@@ -9686,6 +9698,9 @@ namespace Gallery.Droid
 			
 			// aapt resource value: 0x7F0B0040
 			public const int toolbar_actionbar = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int widget = 2131427393;
 			
 			static Layout()
 			{
@@ -14436,7 +14451,10 @@ namespace Gallery.Droid
 		{
 			
 			// aapt resource value: 0x7F110000
-			public const int Empty = 2131820544;
+			public const int appwidget_provider = 2131820544;
+			
+			// aapt resource value: 0x7F110001
+			public const int Empty = 2131820545;
 			
 			static Xml()
 			{

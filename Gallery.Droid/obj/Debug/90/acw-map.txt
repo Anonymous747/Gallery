@@ -1,3 +1,6 @@
+Gallery.Droid.AppWidget, Gallery.Droid;crc643b2d212b2069a6de.AppWidget
+Gallery.Droid.AppWidget;crc643b2d212b2069a6de.AppWidget
+gallery.droid.AppWidget;crc643b2d212b2069a6de.AppWidget
 Gallery.Droid.MainApplication, Gallery.Droid;crc643b2d212b2069a6de.MainApplication
 Gallery.Droid.MainApplication;crc643b2d212b2069a6de.MainApplication
 gallery.droid.MainApplication;crc643b2d212b2069a6de.MainApplication

@@ -7,6 +7,7 @@ android.support.design.widget.TextInputEditText;obj\Debug\90\res\layout\image_pa
 android.support.v4.widget.DrawerLayout;obj\Debug\90\res\layout\root_view.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\image_page_view.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar_actionbar.xml
+appwidget-provider;obj\Debug\90\res\xml\appwidget_provider.xml
 attr;D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 attr;D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
@@ -24,6 +25,7 @@ FrameLayout;obj\Debug\90\res\layout\root_view.xml
 group;obj\Debug\90\res\menu\navigation_drawer.xml
 ImageView;obj\Debug\90\res\layout\image_page_view.xml
 ImageView;obj\Debug\90\res\layout\item_cell.xml
+ImageView;obj\Debug\90\res\layout\widget.xml
 include;obj\Debug\90\res\layout\collection_view.xml
 include;obj\Debug\90\res\layout\help_view.xml
 include;obj\Debug\90\res\layout\main_page_view.xml
@@ -40,8 +42,10 @@ LinearLayout;obj\Debug\90\res\layout\main_page_view.xml
 LinearLayout;obj\Debug\90\res\layout\navigation_header.xml
 LinearLayout;obj\Debug\90\res\layout\setting_view.xml
 LinearLayout;obj\Debug\90\res\layout\splash_screen.xml
+LinearLayout;obj\Debug\90\res\layout\widget.xml
 menu;obj\Debug\90\res\menu\navigation_drawer.xml
 MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView;obj\Debug\90\res\layout\collection_view.xml
+RelativeLayout;obj\Debug\90\res\layout\widget.xml
 resources;D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
 resources;D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
 resources;D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\lp\2\jl\res\values\strings.xml
@@ -56,3 +60,4 @@ string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\item_cell.xml
 TextView;obj\Debug\90\res\layout\navigation_header.xml
+TextView;obj\Debug\90\res\layout\widget.xml

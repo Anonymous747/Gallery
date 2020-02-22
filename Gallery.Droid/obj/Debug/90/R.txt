@@ -1192,8 +1192,12 @@ int id useLogo 0x7f0800d0
 int id username 0x7f0800d1
 int id view_offset_helper 0x7f0800d2
 int id visible 0x7f0800d3
-int id withText 0x7f0800d4
-int id wrap_content 0x7f0800d5
+int id widget_annoncement_icon 0x7f0800d4
+int id widget_background 0x7f0800d5
+int id widget_medium 0x7f0800d6
+int id widget_small 0x7f0800d7
+int id withText 0x7f0800d8
+int id wrap_content 0x7f0800d9
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
 int integer app_bar_elevation_anim_duration 0x7f090002
@@ -1278,6 +1282,7 @@ int layout setting_view 0x7f0b003d
 int layout splash_screen 0x7f0b003e
 int layout support_simple_spinner_dropdown_item 0x7f0b003f
 int layout toolbar_actionbar 0x7f0b0040
+int layout widget 0x7f0b0041
 int menu navigation_drawer 0x7f0c0000
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_foreground 0x7f0d0001
@@ -2606,4 +2611,5 @@ int[] styleable ViewStubCompat { 0x010100d0, 0x010100f2, 0x010100f3 }
 int styleable ViewStubCompat_android_id 0
 int styleable ViewStubCompat_android_layout 1
 int styleable ViewStubCompat_android_inflatedId 2
-int xml empty 0x7f110000
+int xml appwidget_provider 0x7f110000
+int xml empty 0x7f110001

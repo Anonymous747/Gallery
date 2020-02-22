@@ -841,3 +841,7 @@ D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Mvv
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\MvvmCross.Plugin.Json.pdb
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\src\crc64222d3f1540d91665\CityService.java
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\res\layout\widget.xml
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\res\xml\appwidget_provider.xml
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\android\src\crc643b2d212b2069a6de\AppWidget.java
+D:\myscript\GitHab\Gallery\Gallery\Gallery.Droid\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
